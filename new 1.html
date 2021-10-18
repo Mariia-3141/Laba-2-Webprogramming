@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<style>
+ 
+.textcols  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.textcols-item  {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 48%;
+    background: #fff2e1;
+    border-radius: 20px;
+    margin-top:25px;
+}
+.textcols-item + .textcols-item  {
+    margin-left: 2%;
+}
+ 
+.textcols-item + .gallery > img  {
+    margin-left: 7%;
+    }
+ 
+.row     {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 80%;
+    background: white;
+    border-radius: 20px;
+    margin-left:0;
+}
+.header {
+ 
+  padding-bottom:20px;
+  color: black;
+  text-align: left; 
+ flex-direction: column;
+    flex-basis: 100%;
+}
+ 
+ p {
+   padding: 10px;
+   background: gold;
+margin-left:15px;
+margin-right:15px;
+margin-top:20px;
+margin-bottom:10px;
+    border: 2px solid;
+  border-radius: 10px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+ 
+ h2 {
+  padding-left:10px;
+ 
+}
+ .gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ 
+ h1 {
+  padding-left:85%;
+  float:right;
+ 
+}
+ 
+ 
+ .button {
+ 
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Roboto, Verdana, Tahoma, sans;
+  padding: 12px 16px;
+  border-radius: 100px;
+  color: #fff;
+  margin-left: 120px;
+  margin-top:25px;
+}
+ .button i  {
+  margin-right: 4px;
+   
+}
+ .button + .button {
+  margin-left: 6px;
+}
+
+.button + h3{
+ margin-left: 6px;
+}
+ .button.blue {
+  background: #2196F3;
+  text-align:center;
+ 
+}
+ .button.purple {
+  background: #9b59b6;
+ 
+}
+ 
+ .button.red {
+  background: red;
+  text-align:center;
+  margin-left:200px;
+  font-size:50%;
+ 
+}
+ .button.green {
+  background: green;
+  margin-left:260px;
+  font-size:50%;
+ 
+}
+ 
+  img {
+        position: absolute;
+        margin-bottom:30px;
+        width: 90px;
+        height: 90px;
+        margin-left:10px;
+        
+    }
+
+</style>
+    
+<body>
+<div>
+<img src="https://cdn-icons-png.flaticon.com/512/402/402229.png">
+<button id="login" class="button blue">
+  <span>All</span>
+</button>
+<a id="register" class="button purple" href="/register">
+  <span>New</span>
+    </a>
+  <h3>&#127775; Название доски</h3>
+
+ </div>
+
+    
+<div class="textcols">
+    <div class="textcols-item">
+    <header class="header">
+    <h2>Title
+    <button id="login" class="button red">
+  <span>Close</span>
+</button>
+ 
+<button id="login" class="button green">
+  <span>Add</span>
+</button>
+    </h2>
+    </header>
+        <p class="text">Description</p>
+    </div>
+    
+    <div class="textcols-item">
+    <header class="header"><h2>Title
+    <button id="login" class="button red">
+  <span>Close</span>
+</button>
+ 
+<button id="login" class="button green">
+  <span>Add</span>
+</button>
+    </h2></header>
+        <p class="text">Description</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit magna eu tempus ullamcorper. Sed porta justo sed nibh elementum condimentum. Quisque non eros sit amet elit commodo maximus eget a eros.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit magna eu tempus ullamcorper. Sed porta justo sed nibh elementum condimentum. Quisque non eros sit amet elit commodo maximus eget a eros.</p>
+    </div>
+    
+    
+    <div class="textcols-item">
+    <header class="header"><h2>Title
+    <button id="login" class="button red">
+  <span>Close</span>
+</button>
+ 
+<button id="login" class="button green">
+  <span>Add</span>
+</button>
+    </h2></header>
+ 
+    <p>Description</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit magna eu tempus ullamcorper. Sed porta justo sed nibh elementum condimentum. Quisque non eros sit amet elit commodo maximus eget a eros.</p>
+ 
+    </div>
+    
+    <div class="textcols-item">
+    <header class="header"><h2>Title
+    <button id="login" class="button red">
+  <span>Close</span>
+</button>
+ 
+<button id="login" class="button green">
+  <span>Add</span>
+</button>
+    </h2></header>
+ 
+    <p>Description</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit magna eu tempus ullamcorper. Sed porta justo sed nibh elementum condimentum. Quisque non eros sit amet elit commodo maximus eget a eros.</p>
+ 
+    </div>
+</div>
+ 
+</body>
+</html>
